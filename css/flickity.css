@@ -1,0 +1,21 @@
+
+
+* {
+	box-sizing: border-box;
+}
+.carousel {
+	margin-top: 8%;
+}
+.carousel-cell {
+	width: 66%;
+	height: 500px;
+	margin-right: 10px;
+	border-radius: 15px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.carousel-cell:before {
+	display: block;
+	content: '';
+}
